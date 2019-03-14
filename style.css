@@ -72,6 +72,10 @@
 	text-align: center;
 	font-style: bold;
 }
+
+.textpresentation li{
+	list-style-type: none; 
+}
 	/*FIN PRESENTATION*/
 
 	/*EXPERIENCES*/
