@@ -90,47 +90,38 @@ section .social-icons{
 	justify-content: center;
 }
 section .social-icons li{
-margin-left: 10px;
-margin-right: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+	font-size:2em;
+	text-align: center;
+	overflow:hidden;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius:50px;
+	width:40px;
+	height:40px;
+	
 }
+
+section .social-icons li a i{
+	color:#252526 !important;
+	opacity: 0.8;
+	
+}
+
+section .social-icons li:hover {
+	border: 2px solid #5c8d89;
+	opacity: 0.7;
+}
+
 .social-icons{
 	padding-left: 0;
 }
 
-/* .textpresentation .social-icons > li > a{
-	height: 35px;
-	line-height: 35px;
-	width: 35px;
-	border-radius: 20px; 
-	overflow: hidden;
-	z-index: 1;
-	position: relative;
-	margin: 0 5px 5px;
-	background: #887392;
-	color: #fff;
-}
 
-	.textpresentation .social-icons > li > a:after{
-		content: '';
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		top: 0;
-	z-index: -1;
-	border-radius: 20px;
-	background: #FFA804; 
-	-webkit-transition: all .2s ease;
-	transition: all .2s ease;
-	-webkit-transform: scale(0);
-	transform: scale(0);
-}
 
-	.textpresentation .social-icons > li > a:hover:after{
-		-webkit-transform: scale(1);
-		transform: scale(1);
-	} */
-	/*SOCIAL-ICONS*/
+	/*SOCIAL-ICONS
 	/*FIN PRESENTATION*/
 
 	/*PROJETS*/
