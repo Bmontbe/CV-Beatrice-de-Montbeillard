@@ -76,8 +76,14 @@
 	font-style: bold;
 }
 
+.textpresentation h2{
+	text-align: center;
+	font-style: bold;
+	color:#5c8d89;
+}
+
 .textpresentation li{
-	list-style-type: none; 
+	list-style-type: none;
 }
 
 .information{
