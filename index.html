@@ -7,11 +7,13 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,400,500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="ionicons.css">
- 
+
 
 
 
@@ -30,23 +32,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Qui suis-je ?</a>
+            <a class="nav-link" href="#presentationId">Qui suis-je ?</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Mes compétences</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Mes expériences
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Développeur WEB</a>
-              <a class="dropdown-item" href="#">Commerce</a>
-            </div>
+            <a class="nav-link" href="#skillsId">Mes compétences</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Ma formation</a>
+              <a class="nav-link" href="#projectsId">Mes projets</a>
+            </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#workId">Mes expériences</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#studiesId">Ma formation</a>
           </li>
         </ul>
       </div>
@@ -63,34 +61,118 @@
               alt="photo Béatrice de Montbeillard">
             <div class="card-body textpresentation">
               <h1 class="card-text">Béatrice de Montbeillard</h1>
-              <h2 class="card-text">Développeuse WEB et Applications</h2>
-              <ul class="information">
+              <p id="work"></p>
+              <!-- <ul class="information">
                 <li><b id="age"></b></li>
-                <br/>
-                <li><i class="fas fa-birthday-cake"></i> 21 décembre 1984 </li>
-                <li><i class="fas fa-at"></i><a href="mailto:bdemontbeillard@gmail.com"> bdemontbeillard@gmail.com</a></li>
-              </ul>
+              </ul> -->
               <ul class="social-icons">
-                  <li><a href="https://www.linkedin.com/in/beatrice-de-montbeillard" title="Public page LinkedIn - Béatrice de Montbeillard" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                  <li><a href="https://github.com/Bmontbe" title="Public page Github - Béatrice de Montbeillard" target="_blank"><i class="fab fa-github"></i></a></li>
-                </ul>
+                <li><a href="mailto:bdemontbeillard@gmail.com" title="Contactez-moi ! - bdemontbeillard@gmail.com"><i class="far fa-envelope-open"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/beatrice-de-montbeillard" target="_blank"><i
+                      class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://github.com/Bmontbe/" target="_blank"><i class="fab fa-github"></i></a>
+                </li>
+              </ul>
             </div>
           </div>
+        </div>
           <div class="col-lg-2 col-sm-1"></div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="Projet">
-<h2>Mes Projets</h2>
+  <section class="block_presentation" id="presentationId">
+    <div class="block_h2">
+    <h2>Qui suis-je ?</h2>
+    <p>"Après 10 ans d'expériences dans des fonctions marketing et commerciales, j'ai souhaité me donner les moyens 
+      pour réaliser l'un de mes projets : apprendre à coder et devenir développeuse web ! Aujourd'hui, j'étudie à la 
+      Wild Code School et je suis heureuse d'avoir franchi le pas !"</p>
+  </div>
   </section>
 
-  <section class="timeline experiences">
+  <section class="skills" id="skillsId">
+      <div class="block_h2">
+      <h2>Mes compétences</h2>
+        <p>
+        <i class="fab fa-html5 mr-4"></i>
+        <i class="fab fa-css3-alt mr-4"></i>
+        <i class="fab fa-github mr-4"></i>
+        <i class="fab fa-js-square mr-4"></i>
+        <i class="fab fa-react mr-4"></i>
+        <i class="fab fa-node mr-4"></i>
+        <i class="fab fa-git mr-4"></i>
+        <i class="fab fa-grunt"></i>
+        </p>
+      <p>
+        <ul id=softskills>
+          <li>Communication</li>
+          <li>Négociation</li>
+          <li>Gestion/Organisation</li>
+          <li>Proactivité</li>
+          <li>Persévérance</li>
+          <li>Adaptation</li>
+        </ul>
+        </p>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <section class="Projet" id="projectsId">
+      <div class="block_h2">4
+      <h2>Mes Projets</h2>
+    </div>
+      <div class="container">
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <div class="card mb-3" style="width: 20rem;">
+                  <a href="https://bmontbe.github.io/Vis-ma-ville/" target="_blank"><img src="pics/vismavilleDay.png" class="card-img-top" alt="Vis-ma-ville"></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Application Ville de Nantes</h5>
+                    <p class="card-text">Projet réalisé la 2ème semaine à la Wild Code School</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><i class="far fa-clock"></i> 30 heures</li>
+                    <li class="list-group-item"><i class="fas fa-users"></i> 4 personnes</li>
+                    <li class="list-group-item"><i class="fas fa-network-wired"></i> HTML, CSS, Bootstrap, JavaScript</li>
+                  </ul>
+                  <div class="card-body linkGithub">
+                    <a href="https://github.com/Bmontbe/Vis-ma-ville" target="_blank"><i class="fab fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+          <div class="col d-flex justify-content-center">
+            <div class="card mb-3" style="width: 20rem;">
+              <img src="pics/appli meteo.png" class="card-img-top" alt="appli-meteo">
+              <div class="card-body">
+                <h5 class="card-title">Application météo</h5>
+                <p class="card-text">Projet réalisé à la Wild Code School</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><i class="far fa-clock"></i> 3 jours</li>
+                <li class="list-group-item"><i class="fas fa-users"></i> 1 personne</li>
+                <li class="list-group-item"><i class="fas fa-network-wired"></i> HTML, CSS, Bootstrap, JavaScript, React
+                </li>
+              </ul>
+              <div class="card-body linkGithub">
+                <a href="https://github.com/Bmontbe/app-meteo" target="_blank"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  <section class="timeline experiences" id="workId">
+      <div class="block_h2">
+          <h2 id=experience_H2>Mes expériences</h2>
+        </div>
+    <div class ="block_timeline">
     <div class="container">
       <div class="timeline-item">
         <div class="timeline-img"></div>
-
         <div class="timeline-content js--fadeInLeft">
           <div class="blocposte">
             <div class="date">2014 - 2018<br />3 ans 6 mois</div>
@@ -101,7 +183,7 @@
               <h3>Responsable Clientèle</h3>
             </div>
             <blockquote>
-              <p><a href="#nogo"
+              <p><a id="texte1" href="#nogo"
                   onclick="document.getElementById('lirelasuite1').style.display = 'block'; this.style.display = 'none';">Missions...</a>
               </p>
               <div id="lirelasuite1">
@@ -123,6 +205,9 @@
                   <li>Prêt immobilier</li>
                   <li>Conseil en placement (Pinel, assurance vie, DAT, PEA...)</li>
                 </ul>
+                <a href="#nogo"
+                onclick="document.getElementById('lirelasuite1').style.display = 'none'; document.getElementById('texte1').style.display = 'block';"><i class="fas fa-arrow-circle-up"></i></a>
+                 
               </div>
             </blockquote>
           </div>
@@ -143,7 +228,7 @@
               <h3>Responsable de secteur – 44, 56, 29, 49</h3>
             </div>
             <blockquote>
-              <p><a href="#nogo"
+              <p><a id="texte2" href="#nogo"
                   onclick="document.getElementById('lirelasuite2').style.display = 'block'; this.style.display = 'none';">Missions...</a>
               </p>
               <div id="lirelasuite2">
@@ -156,6 +241,9 @@
                 <p>CA clients directs FY13 : 3,5 millions d’euros<br />
                   Clients : Multi spécialistes, spécialistes directs et indirects, Leclerc, grossistes, photographes
                 </p>
+                <a href="#nogo"
+                onclick="document.getElementById('lirelasuite2').style.display = 'none'; document.getElementById('texte2').style.display = 'block';"><i class="fas fa-arrow-circle-up"></i></a>
+                 
               </div>
             </blockquote>
           </div>
@@ -163,109 +251,92 @@
       </div>
 
       <div class="timeline-item">
-
         <div class="timeline-img"></div>
-
         <div class="timeline-content js--fadeInLeft">
-          <div class="date">3 JUN 2016</div>
-          <h2>Quote</h2>
-          <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta explicabo debitis omnis dolor iste
-            fugit totam quasi inventore!</blockquote>
+          <div class="blocposte">
+            <div class="date">2009<br />6 mois</div>
+            <div class="firmeName">
+              <h2>Sony France</h2>
+            </div>
+            <div>
+              <h3>Chargée de Trade Marketing Audio Vidéo</h3>
+            </div>
+            <blockquote>
+              <p><a id="texte3" href="#nogo"
+                  onclick="document.getElementById('lirelasuite3').style.display = 'block'; this.style.display = 'none';">Missions...</a>
+              </p>
+              <div id="lirelasuite3">
+                <ul>
+                  <li>Mise en œuvre, gestion et suivi des actions promotionnelles à destination des
+                    distributeurs et des consommateurs (Recherche de prestataires : studios de
+                    créations, fabricants de PLV, fournisseurs de primes, animations</li>
+                  <li>Gestion du budget Trade Marketing Audio Vidéo</li>
+                  <li>Elaboration de nouveaux plans merchandising / Négociation avec les enseignes</li>
+                </ul>
+                <p>Budget géré: 1.3 millions d’euros</br>
+                  Clients : Fnac, Darty, Carrefour, Auchan, Leclerc, spécialistes (Gitem, Digital, Expert...)</p>
+                <p>Projets suivis : Lancement de la série W Walkman, OP trade Blu-ray et « départ en
+                  vacances »</p>
+                  <a href="#nogo"
+                  onclick="document.getElementById('lirelasuite3').style.display = 'none'; document.getElementById('texte3').style.display = 'block';"><i class="fas fa-arrow-circle-up"></i></a>
+                   
+              </div>
+            </blockquote>
+          </div>
         </div>
       </div>
 
       <div class="timeline-item">
-
         <div class="timeline-img"></div>
 
         <div class="timeline-content js--fadeInRight">
-          <h2>Title</h2>
-          <div class="date">22 JUN 2016</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe
-            atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.
-          </p>
-          <a class="bnt-more" href="javascript:void(0)">More</a>
-        </div>
-      </div>
+          <div class="blocposte">
+            <div class="date">2007 - 2008<br />1 an 3 mois</div>
+            <div class="firmeName">
+              <h2>Unilever Food Solutions France</h2>
+            </div>
+            <div>
+              <h3>Assistante Trade Marketing (B to B)</h3>
+            </div>
+            <blockquote >
+              <p><a id=texte4 href="#nogo" 
+                   onclick="document.getElementById('lirelasuite4').style.display = 'block'; this.style.display = 'none';">Missions...</a>
+              </p>
+              <div id="lirelasuite4">
+                <ul>Participation à la stratégie promotionnelle (élaboration, suivi et analyse des
+                  performances)</li>
+                  <li>Création de supports de communication et d’aide à la vente pour les équipes de
+                    vente</li>
+                    <li>Pilotage des opérations commerciales en collaboration avec les équipes des ventes</li>
+                </ul>
+                <p>Projets suivis : 4 in-store event annuels, OP trade nationales et régionales<br />
+                  Clients : Cash&Carry (Métro, Promocash), Distribution livrée (Transgourmet, Pomona,
+                  Gedal) </p>
 
-      <div class="timeline-item">
-
-        <div class="timeline-img"></div>
-
-        <div class="timeline-content timeline-card js--fadeInLeft">
-          <div class="timeline-img-header">
-            <h2>Card Title</h2>
+                <a href="#nogo"
+            onclick="document.getElementById('lirelasuite4').style.display = 'none'; document.getElementById('texte4').style.display = 'block';"><i class="fas fa-arrow-circle-up"></i></a>
+              </div>
+            </blockquote>
           </div>
-          <div class="date">10 JULY 2016</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe
-            atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.
-          </p>
-          <a class="bnt-more" href="javascript:void(0)">More</a>
         </div>
       </div>
-
-      <div class="timeline-item">
-
-        <div class="timeline-img"></div>
-
-        <div class="timeline-content timeline-card js--fadeInRight">
-          <div class="timeline-img-header">
-            <h2>Card Title</h2>
-          </div>
-          <div class="date">30 JULY 2016</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe
-            atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.
-          </p>
-          <a class="bnt-more" href="javascript:void(0)">More</a>
-        </div>
-      </div>
-
-      <div class="timeline-item">
-
-        <div class="timeline-img"></div>
-
-        <div class="timeline-content js--fadeInLeft">
-          <div class="date">5 AUG 2016</div>
-          <h2>Quote</h2>
-          <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta explicabo debitis omnis dolor iste
-            fugit totam quasi inventore!</blockquote>
-        </div>
-      </div>
-
-      <div class="timeline-item">
-
-        <div class="timeline-img"></div>
-
-        <div class="timeline-content timeline-card js--fadeInRight">
-          <div class="timeline-img-header">
-            <h2>Card Title</h2>
-          </div>
-          <div class="date">19 AUG 2016</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe
-            atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.
-          </p>
-          <a class="bnt-more" href="javascript:void(0)">More</a>
-        </div>
-      </div>
-
-      <div class="timeline-item">
-
-        <div class="timeline-img"></div>
-
-        <div class="timeline-content js--fadeInLeft">
-          <div class="date">1 SEP 2016</div>
-          <h2>Title</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe
-            atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.
-          </p>
-          <a class="bnt-more" href="javascript:void(0)">More</a>
-        </div>
-      </div>
-
-
-
+    </div>
     </div>
   </section>
+  
+  <section class="block_formation" id="studiesId">
+    <div class="block_h2">
+    <h2>Formation</h2>
+    <p><strong>2019 : </strong>Wild Code School - Développeur Web et Application.</p>
+    <p><strong>2005 - 2009 : </strong>ESC Dijon Bourgogne - spécialisation Management Commercial B to B.</p>
+    <p><strong>2003-2005 : </strong>DUT Techniques de commercialisation - Université d'Angers.</p>
+    <p><strong>2002 : </strong>Bac ES (économique et social), option mathématiques - Externat des enfants Nantais.</p>
+  </div>
+  </section>
+<footer>
+
+</footer>
+
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -276,10 +347,12 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
   <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
   <script src='https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js'></script>
   <script src="time_line.js"></script>
   <script src="birthday_age.js"></script>
+  <script src="work.js"></script>
 </body>
 
 </html>

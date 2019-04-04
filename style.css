@@ -17,7 +17,7 @@
 	font-size: 14px;
 	text-align: justify;
 	font-weight: 400;
-	background-color: #eee;
+	background-color:#f5f5f5;
   }
   
   h1 {
@@ -29,12 +29,19 @@
   }
   
   h2 {
-	font-size: 110%;
+	font-size: 150%;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: bold;
-	text-align: left;
-  }
+	color: #5c8d89;
+	}
+	
+	.block_h2{
+		width:100%;
+		text-align: center;
+		margin-bottom: 3rem;
+
+	}
   
   h3 {
 	font-size: 100%;
@@ -76,14 +83,13 @@
 	font-style: bold;
 }
 
-.textpresentation h2{
-	text-align: center;
-	font-style: bold;
+.textpresentation #work {
 	color:#5c8d89;
+	font-size: 110%;
+	letter-spacing: 2px;
 }
-
 .textpresentation li{
-	list-style-type: none;
+	list-style-type: none; 
 }
 
 .information{
@@ -98,7 +104,6 @@ section .social-icons{
 section .social-icons li{
 	margin-left: 10px;
 	margin-right: 10px;
-	
 	font-size:2em;
 	text-align: center;
 	overflow:hidden;
@@ -124,36 +129,95 @@ section .social-icons li:hover {
 .social-icons{
 	padding-left: 0;
 }
-
-
-
 	/*SOCIAL-ICONS
 	/*FIN PRESENTATION*/
 
-	/*PROJETS*/
-	.Projet{
-		padding-top: 150px;
+	/*Qui suis-je ?*/
+	.block_presentation{
+		padding-top: 130px;
 		padding-left: 30px;
 		padding-right: 30px;
+		padding-bottom : 5px;
 		background-color: #252526;
 	}
-	.Projet h2{
+
+	.block_presentation p{
 		color:white;
-		font-size: 150%;
+		font-size: 120%;
+		margin-top: 1rem;
+		font-style: oblique;
 	}
+	/*Fin Qui suis-je ?*/
+
+		/*SKILLS*/
+		.skills{
+			padding-left: 30px;
+			padding-right: 30px;
+			padding-bottom : 5px;
+			padding-top: 30px;
+			background-color: #f5f5f5;
+		}
+
+		.skills i{
+			font-size:3em;
+			margin-top: 1em;
+		}
+	
+		#softskills{
+			display: flex;
+			justify-content: space-between;
+			list-style-type: none;
+		}
+		/*END SKILLS*/
+	
+	/*PROJETS*/
+
+	.Projet{
+		padding-top: 30px;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom : 30px;
+		background-color: #252526;
+	}
+
+	.linkGithub{
+		text-align: right;
+		font-size:2em;
+		padding-bottom: 1px;
+		padding-top:1px;
+	}
+
+	.linkGithub .fa-github{
+		color : #5c8d89;
+	}
+
 	/*FIN PROJETS*/
 
 
 	/*EXPERIENCES PRO*/
 
-.experiences{
-	margin-top:200px;
+.experiences .block_timeline h2{
+	color:#252526;
+	font-size: 110%;
 }
+
+.experiences{
+			padding-left: 30px;
+			padding-right: 30px;
+			padding-bottom : 30px;
+			padding-top: 30px;
+			background-color:#f5f5f5;
+		}
+
+.block_timeline{
+	padding-top: 10px;
+}
+
 .firmeName{
 		padding:10px, 10px, 10px, 0px;
 		}
 
-#lirelasuite1, #lirelasuite2 {
+#lirelasuite1, #lirelasuite2, #lirelasuite3, #lirelasuite4 {
 	display:none;}
 
   .timeline {
@@ -161,12 +225,14 @@ section .social-icons li:hover {
   }
   .timeline::before {
 	content: '';
-	background: #C5CAE9;
+	background: #5c8d89;
+	opacity: 0.5;
 	width: 5px;
 	height: 95%;
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
+	margin-top: 50px;
   }
   
   .timeline-item {
@@ -294,7 +360,25 @@ section .social-icons li:hover {
   }
 /*FIN EXPERIENCES*/
 
+/*FORMATION*/
+
+.block_formation{
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom : 30px;
+	background-color: #252526;
+	margin-top:70px;
+}
+
+.block_formation p{
+	color:white;
+	font-size: 120%;
+	margin-top: 1rem;
+}
+
 	@media screen and (max-width: 768px) {
+
 		.timeline::before {
 			left: 50px;
 		}
@@ -328,15 +412,10 @@ section .social-icons li:hover {
 	
 		
   @media all and (max-device-width: 480px) {
-	a.navbar-brand{
-
-	  body {
-		font-size: 35px;
-	  }
-	    
+		
 	  h2 {
 		font-size: 110%;
-	  }
+		}
 	  
 	  h3 {
 		font-size: 100%;
