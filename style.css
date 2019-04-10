@@ -407,18 +407,26 @@ section .social-icons li:hover {
 			padding-right: 5px;
 			padding-bottom: 0px;
 		}
-		.timeline-item {
-			width: 100%;
-			margin-bottom: 70px;
+
+		.timeline::before {
+			left: 50px;
 		}
 		.timeline .timeline-img {
 			left: 50px;
 		}
+		.timeline-item {
+			width: 100%;
+			margin-bottom: 70px;
+		}
 		.timeline .timeline-content {
 			max-width: 100%;
 			width: auto;
-			margin-left: 70px;
+			margin-left: 40px;
 		}
+
+		.timeline-item:nth-child(even) .timeline-content {
+			float: none;
+			}
 
 		#softskills{
 			display: flex;
