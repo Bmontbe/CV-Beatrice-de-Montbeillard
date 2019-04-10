@@ -304,6 +304,7 @@ section .social-icons li:hover {
 	width: 30px;
 	height: 30px;
 	background: #5c8d89;
+	z-index: 2;
 	border-radius: 50%;
 	position: absolute;
 	left: 50%;
@@ -395,8 +396,16 @@ section .social-icons li:hover {
 
 	@media screen and (max-width: 768px) {
 
-		.timeline::before {
-			left: 50px;
+		.container {
+			width: 100%;
+			padding-right: 5px;
+			padding-left: 5px;
+		}
+
+		.experiences{
+			padding-left: 10px;
+			padding-right: 5px;
+			padding-bottom: 0px;
 		}
 		.timeline-item {
 			width: 100%;
@@ -420,8 +429,12 @@ section .social-icons li:hover {
 		
   @media all and (max-device-width: 480px) {
 		
-	  h2 {
-		font-size: 110%;
+		.nameCV{
+			display:none;
+		}
+
+		h2 {
+		font-size: 150%;
 		}
 	  
 	  h3 {
