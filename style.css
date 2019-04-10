@@ -48,8 +48,15 @@
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	text-align: left;
-  }
+	}
 
+	h5 {
+	text-transform: uppercase;
+	font-size: 110%;
+	font-weight: bold;
+	color: #5c8d89;
+	}
+	
 	/*PRESENTATION*/
 
 .presentation{
@@ -134,7 +141,7 @@ section .social-icons li:hover {
 
 	/*Qui suis-je ?*/
 	.block_presentation{
-		padding-top: 130px;
+		padding-top: 140px;
 		padding-left: 30px;
 		padding-right: 30px;
 		padding-bottom : 5px;
@@ -143,13 +150,14 @@ section .social-icons li:hover {
 
 	.block_presentation p{
 		color:white;
-		font-size: 120%;
+		font-size: 140%;
 		margin-top: 1rem;
-		font-style: oblique;
+		text-decoration: bold; 
 	}
 	/*Fin Qui suis-je ?*/
 
 		/*SKILLS*/
+
 		.skills{
 			padding-left: 30px;
 			padding-right: 30px;
@@ -167,7 +175,11 @@ section .social-icons li:hover {
 			display: flex;
 			justify-content: space-between;
 			list-style-type: none;
+			font-size: 110%;
+			padding-left: 30px;
+			padding-right: 30px;
 		}
+
 		/*END SKILLS*/
 	
 	/*PROJETS*/
@@ -178,6 +190,10 @@ section .social-icons li:hover {
 		padding-right: 30px;
 		padding-bottom : 30px;
 		background-color: #252526;
+	}
+
+	#projectsId .card{
+		border:4px solid #5c8d89;
 	}
 
 	.linkGithub{
@@ -394,19 +410,10 @@ section .social-icons li:hover {
 			width: auto;
 			margin-left: 70px;
 		}
-		.timeline .timeline-item:nth-child(even) .timeline-content {
-			float: none;
-		}
-		.timeline .timeline-item:nth-child(odd) .timeline-content::after {
-			content: '';
-			position: absolute;
-			border-style: solid;
-			width: 0;
-			height: 0;
-			top: 30px;
-			left: -15px;
-			border-width: 10px 15px 10px 0;
-			border-color: transparent #f5f5f5 transparent transparent;
+
+		#softskills{
+			display: flex;
+			flex-direction: column;
 		}
 	}
 	
@@ -438,21 +445,7 @@ section .social-icons li:hover {
 	.timeline .timeline-content {
 	  max-width: 100%;
 	  width: auto;
-	  margin-left: 0px;
-	}
-	.timeline .timeline-item:nth-child(even) .timeline-content {
-	  float: none;
-	}
-	.timeline .timeline-item:nth-child(odd) .timeline-content::after {
-	  content: '';
-	  position: absolute;
-	  border-style: solid;
-	  width: 0;
-	  height: 0;
-	  top: 30px;
-	  left: -15px;
-	  border-width: 10px 15px 10px 0;
-	  border-color: transparent #f5f5f5 transparent transparent;
+	  margin-left: 40px;
 	}
 
   }
