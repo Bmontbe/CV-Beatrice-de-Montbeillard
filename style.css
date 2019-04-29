@@ -145,7 +145,7 @@ section .social-icons li:hover {
 		padding-left: 30px;
 		padding-right: 30px;
 		padding-bottom : 5px;
-		background-color: #252526;
+		background-color: #383b42;
 	}
 
 	.block_presentation p{
@@ -157,6 +157,16 @@ section .social-icons li:hover {
 	/*Fin Qui suis-je ?*/
 
 		/*SKILLS*/
+
+		.logo-png{
+			width:auto;
+			height: 70px;
+			padding-bottom: 25px;
+		}
+		
+		.skills p{
+			padding-top:20px;
+		}
 
 		.skills{
 			padding-left: 30px;
@@ -189,7 +199,7 @@ section .social-icons li:hover {
 		padding-left: 30px;
 		padding-right: 30px;
 		padding-bottom : 30px;
-		background-color: #252526;
+		background-color: #383b42;
 	}
 
 	#projectsId .card{
@@ -384,7 +394,7 @@ section .social-icons li:hover {
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-bottom : 30px;
-	background-color: #252526;
+	background-color: #383b42;
 	margin-top:70px;
 }
 
