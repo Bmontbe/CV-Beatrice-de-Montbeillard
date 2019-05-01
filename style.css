@@ -11,14 +11,13 @@
 
 }
 
-
   body {
 	font-family: 'Roboto';
 	font-size: 14px;
 	text-align: justify;
 	font-weight: 400;
 	background-color:#f5f5f5;
-  }
+	}
   
   h1 {
 	font-size: 180%;
@@ -145,7 +144,7 @@ section .social-icons li:hover {
 		padding-left: 30px;
 		padding-right: 30px;
 		padding-bottom : 5px;
-		background-color: #252526;
+		background-color: #383b42;
 	}
 
 	.block_presentation p{
@@ -157,6 +156,16 @@ section .social-icons li:hover {
 	/*Fin Qui suis-je ?*/
 
 		/*SKILLS*/
+
+		.logo-png{
+			width:auto;
+			height: 70px;
+			padding-bottom: 25px;
+		}
+		
+		.skills p{
+			padding-top:20px;
+		}
 
 		.skills{
 			padding-left: 30px;
@@ -171,9 +180,14 @@ section .social-icons li:hover {
 			margin-top: 1em;
 		}
 	
+		#softskills li{
+			margin-right: 10px;
+			margin-left: 10px;
+			font-weight: bold;
+		}
 		#softskills{
 			display: flex;
-			justify-content: space-between;
+			justify-content: center;
 			list-style-type: none;
 			font-size: 110%;
 			padding-left: 30px;
@@ -189,7 +203,7 @@ section .social-icons li:hover {
 		padding-left: 30px;
 		padding-right: 30px;
 		padding-bottom : 30px;
-		background-color: #252526;
+		background-color: #383b42;
 	}
 
 	#projectsId .card{
@@ -384,7 +398,7 @@ section .social-icons li:hover {
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-bottom : 30px;
-	background-color: #252526;
+	background-color: #383b42;
 	margin-top:70px;
 }
 
@@ -400,6 +414,10 @@ section .social-icons li:hover {
 			width: 100%;
 			padding-right: 5px;
 			padding-left: 5px;
+		}
+
+		.presentation{
+			padding-top: 250px;
 		}
 
 		.experiences{
@@ -439,6 +457,10 @@ section .social-icons li:hover {
 		
 		.nameCV{
 			display:none;
+		}
+
+		.presentation{
+			padding-top: 300px;
 		}
 
 		h2 {
