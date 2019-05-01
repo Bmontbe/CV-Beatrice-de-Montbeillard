@@ -33,7 +33,7 @@
 <body>
   <header>
       <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-          <a class="navbar-brand nameCV" href="#">Béatrice de Montbeillard</a>
+          <!-- <a class="navbar-brand nameCV" href="#">Béatrice de Montbeillard</a> -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -41,7 +41,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent" data-toggle="collapse" data-target="#navbarSupportedContent.show">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#presentationId" >Qui suis-je ?</a>
+                    <a class="nav-link" href="#">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#skillsId">Mes compétences</a>
@@ -55,9 +55,9 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#studiesId">Ma formation</a>
                   </li>
+            </ul>
           </div>
         </nav>
-
   </header>
   <section>
     <div class="container-fluid presentation">
@@ -89,9 +89,8 @@
     </div>
   </section>
 
-  <section class="block_presentation" id="presentationId">
+  <section class="block_presentation">
     <div class="block_h2">
-    <h2>Qui suis-je ?</h2>
     <p><em>"Après 10 ans d'expériences dans des fonctions marketing et commerciales, j'ai souhaité me donner les moyens 
       pour réaliser l'un de mes projets : apprendre à coder et devenir développeuse web ! Aujourd'hui, j'étudie à la 
       Wild Code School et je suis heureuse d'avoir franchi le pas !"</em></p>
@@ -136,13 +135,13 @@
       <div class="block_h2">
       <h2>Mes Projets</h2>
     </div>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
-            <div class="col d-flex justify-content-center">
-                <div class="card mb-3" style="width: 20rem">
+            <div class="col-lg-3 col-md-6 col-sm-6 d-flex justify-content-center">
+                <div class="card mb-3">
                   <a href="https://bmontbe.github.io/Vis-ma-ville/" target="_blank"><img src="pics/vismavilleDay.png" class="card-img-top" alt="Vis-ma-ville"></a>
                   <div class="card-body">
-                    <h5 class="card-title titreH5">Application Ville de Nantes</h5>
+                    <h5 class="card-title">Application Ville de Nantes</h5>
                     <p class="card-text">Projet réalisé la 2ème semaine à la Wild Code School</p>
                   </div>
                   <ul class="list-group list-group-flush">
@@ -155,8 +154,8 @@
                   </div>
                 </div>
               </div>
-          <div class="col d-flex justify-content-center">
-            <div class="card mb-3" style="width: 20rem">
+          <div class="col-lg-3 col-md-6 col-sm-6 d-flex justify-content-center">
+            <div class="card mb-3">
               <a href="https://beatricedemontbeillard.fr/apps/app-meteo/" target="_blank"><img src="pics/app-meteo.png" class="card-img-top" alt="appli-meteo"></a>
               <div class="card-body">
                 <h5 class="card-title">Application météo</h5>
@@ -165,16 +164,15 @@
               <ul class="list-group list-group-flush">
                 <li class="list-group-item"><i class="far fa-clock"></i> 2 jours</li>
                 <li class="list-group-item"><i class="fas fa-users"></i> 1 personne</li>
-                <li class="list-group-item"><i class="fas fa-network-wired"></i> HTML, CSS, Bootstrap, JavaScript, React
-                </li>
+                <li class="list-group-item"><i class="fas fa-network-wired"></i> HTML, CSS, Bootstrap, JavaScript, React</li>
               </ul>
               <div class="card-body linkGithub">
                 <a href="https://github.com/Bmontbe/app-meteo" target="_blank"><i class="fab fa-github"></i></a>
               </div>
             </div>
           </div>
-          <div class="col d-flex justify-content-center">
-            <div class="card mb-3" style="width: 20rem">
+          <div class="col-lg-3 col-md-6 col-sm-6 d-flex justify-content-center">
+            <div class="card mb-3">
               <img src="pics/super-poule.png" class="card-img-top" alt="super-poule">
               <div class="card-body">
                 <h5 class="card-title">Super Poule</h5>
@@ -183,16 +181,15 @@
               <ul class="list-group list-group-flush">
                 <li class="list-group-item"><i class="far fa-clock"></i> 24 heures</li>
                 <li class="list-group-item"><i class="fas fa-users"></i> 5 personnes</li>
-                <li class="list-group-item"><i class="fas fa-network-wired"></i> HTML, CSS, Bootstrap, JavaScript, Phaser
-                </li>
+                <li class="list-group-item"><i class="fas fa-network-wired"></i> HTML, CSS, Bootstrap, JavaScript, Phaser</li>
               </ul>
               <div class="card-body linkGithub">
                 <a href="https://github.com/Bmontbe/SuperPoule" target="_blank"><i class="fab fa-github"></i></a>
               </div>
             </div>
           </div>
-          <div class="col d-flex justify-content-center">
-            <div class="card mb-3" style="width: 20rem">
+          <div class="col-lg-3 col-md-6 col-sm-6 d-flex justify-content-center">
+            <div class="card mb-3">
               <img src="pics/Wild_Chat.png" class="card-img-top" alt="Wild-Chat">
               <div class="card-body">
                 <h5 class="card-title">Wild Chat</h5>
@@ -201,8 +198,7 @@
               <ul class="list-group list-group-flush">
                 <li class="list-group-item"><i class="far fa-clock"></i> 80 heures</li>
                 <li class="list-group-item"><i class="fas fa-users"></i> 4 personnes</li>
-                <li class="list-group-item"><i class="fas fa-network-wired"></i> HTML, CSS, Bootstrap, JavaScript, React, Socket.io, Context-API</context-API>
-                </li>
+                <li class="list-group-item"><i class="fas fa-network-wired"></i> HTML, CSS, Bootstrap, JavaScript, React, Socket.io, Context-API</li>
               </ul>
               <div class="card-body linkGithub">
                 <a href="https://github.com/WildCodeSchool/nantes-0219-js-wild-chat" target="_blank"><i class="fab fa-github"></i></a>
